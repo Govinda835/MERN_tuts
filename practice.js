@@ -9,6 +9,7 @@ app.get("/home/",(req,res)=>{
 })
 
 app.listen(3000,()=>{
+    console.log("hello")
 
     console.log("is this server working?")
 })
