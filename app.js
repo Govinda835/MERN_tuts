@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get("/",(req,res)=>{
-    res.send("hello movies.djsa,hdsgkdahsjlhsadjshdkjhsd...")
+    res.send("hello movies.")
     
 })
 app.get("/home",(req,res)=>{
