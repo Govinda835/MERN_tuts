@@ -2,11 +2,15 @@ const express = require('express')
 const app = express()
 
 app.get("/",(req,res)=>{
-    res.send("hello movies.")
+    res.json({
+       message: ("hello movies.")
+})
     
 })
 app.get("/home",(req,res)=>{
-    res.send("this is home page.")
+    res.json({
+        message: ("this is a home page.")
+    })
 })
 
 app.listen(3000, ()=>{
