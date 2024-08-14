@@ -1,7 +1,10 @@
+require('dotenv').config()
 const express = require('express')
+// const connectdb = require('./database/index.js')
 const connectToDatabase = require('./database')
-const app = express()
 
+const app = express()
+// connectdb()
 connectToDatabase()
 app.get("/",(req,res)=>{
     res.json({
@@ -15,7 +18,9 @@ app.get("/home",(req,res)=>{
     })
 })
 
-app.listen(3000, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log("server is listening at 3000 port")
 })
+
+
 
