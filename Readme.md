@@ -17,3 +17,11 @@ node => npm=>
 
 # to connect node js with the database/mongodb => mongoose act as a medium
 
+
+# to install the dot env....  we need to give the command npm i dotenv
+
+# require(dotenv).config() it should be asigned at the top of the main file .... 
+
+
+
+
