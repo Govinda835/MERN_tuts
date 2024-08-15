@@ -26,4 +26,21 @@ node => npm=>
 MONGODB_URL = "..............."
 PORT = 3000
 
+# how to install package.json => 
+
+# how to install package-lock.json=>
+
+# how to install .gitignore => 
+
+
+# first step = npm init (project intiliaze)
+
+ 
+# naming of file....
+blog-model.js = kebab case
+blog_model.js = snake case
+blogModel.js-pascal
+blogModel.js= camel case
+
+
 
