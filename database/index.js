@@ -6,7 +6,7 @@ async function connectToDatabase() {
     if (connectionstats) {
       console.log("database connected successfully.");
     } else {
-      console.log("database connection failed....!!!");
+      console.log("erro while connecting database....!!!!");
     }
   } catch (error) {
     console.log("error while connecting database....!!",error);

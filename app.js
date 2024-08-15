@@ -12,6 +12,7 @@ app.get("/",(req,res)=>{
 })
     
 })
+
 app.get("/home",(req,res)=>{
     res.json({
         message: ("this is a home page.")
@@ -19,7 +20,7 @@ app.get("/home",(req,res)=>{
 })
 
 app.listen(process.env.PORT, ()=>{
-    console.log("server is listening at 3000 port")
+    console.log("server is listening at 3000 port.....!!!!")
 })
 
 

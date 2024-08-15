@@ -22,6 +22,8 @@ node => npm=>
 
 # require(dotenv).config() it should be asigned at the top of the main file .... 
 
-
+# skillspark.com.np  new baneshwor
+MONGODB_URL = "..............."
+PORT = 3000
 
 
