@@ -1,10 +1,10 @@
-require("dotenv").config();
+require("dotenv").config()
 const express = require("express");
 
 const connectToDatabase = require("./database");
 const { Blog } = require("./model/blog.model");
 
-const app = express();
+const app = express()
 app.use(express.json())
 connectToDatabase();
 app.get("/", (req, res) => {
@@ -35,5 +35,5 @@ app.post("/blog",async(req,res)=>{
 
 
 app.listen(process.env.PORT, () => {
-  console.log("server is listening at 3000 port.....!!!!");
+  console.log("server is listening at 3000 port....!!!!");
 });
