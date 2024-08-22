@@ -44,3 +44,13 @@ blogModel.js= camel case
 
 
 
+# github.com/Addy-001/PCPS_Classes
+
+
+# CRUD = 
+ create 
+ read --> all read and single read 
+ update 
+ delete 
+
+
